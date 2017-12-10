@@ -756,6 +756,7 @@ table {
 
 @media only screen and (max-width:765px) {
     .navbar-header {
-        border-bottom:2px solid #f56a6a;
+        border-bottom: 2px solid #f56a6a;
+        border-top: none;
     }
 }
