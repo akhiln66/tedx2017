@@ -8,6 +8,9 @@ $(document).ready(function () {
     $("a").click(function(){
         $('.navbar-collapse.in').collapse('hide');
     });
+    $("html").click(function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
 });
 function main() {
 
