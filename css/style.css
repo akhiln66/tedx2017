@@ -47,6 +47,7 @@ p {
         /*font-family: 'Open Sans', sans-serif;*/
         /*font-family: 'Ubuntu', sans-serif !important;*/
         font-family: 'Cuprum', sans-serif;
+        text-align:justify;
     }
 a {
     color: #f56a6a;
@@ -752,14 +753,3 @@ table {
     table td {
         padding: 0.75em 0.75em;
     }
-
-
-@media only screen and (max-width:765px) {
-    .navbar-header {
-        border-bottom: 2px solid #f56a6a;
-    }
-
-    .navbar-default #bs-example-navbar-collapse-1{
-        border-bottom:none;
-    }
-}

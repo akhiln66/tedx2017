@@ -96,7 +96,7 @@ function main() {
     $(window).load(function() {
         var $container = $('#lightbox');
         $container.isotope({
-            filter: '*',
+            filter: '.2018',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
