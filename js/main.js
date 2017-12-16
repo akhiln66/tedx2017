@@ -4,6 +4,11 @@
 //
 //
 
+$(document).ready(function () {
+    $("a").click(function(){
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
 function main() {
 
 (function () {
@@ -45,6 +50,7 @@ function main() {
     })
 
   	$(document).ready(function() {
+
   	  $("#team").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
@@ -88,28 +94,7 @@ function main() {
         singleItem:true
         });
 
-        });
-
-        /*====================================
-                        Preloader
-            ======================================*/
-
-        $(window).load(function () {
-
-            var preloaderDelay = 350,
-                preloaderFadeOutTime = 800;
-
-            function hidePreloader() {
-                var loadingAnimation = $('#loading-animation'),
-                    preloader = $('#preloader');
-
-                loadingAnimation.fadeOut();
-                preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
-            }
-
-            hidePreloader();
-
-        });
+  	});
 
   	/*====================================
     Portfolio Isotope Filter
