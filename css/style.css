@@ -563,7 +563,7 @@ button.btn.tf-btn.btn-default {
 /* Footer */
 nav#footer{
 	/*background: #222222;*/
-	color: #ffffff;
+	/*color: #ffffff;*/
 	padding: 20px 0 15px 0;
 }
 
@@ -763,5 +763,9 @@ table {
 
     .navbar-default #bs-example-navbar-collapse-1 {
         border-bottom:none;
+    }
+
+    #tf-about {
+        margin-top:85px;
     }
 } 
