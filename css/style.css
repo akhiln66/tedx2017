@@ -429,6 +429,7 @@ ol.type li a.active { font-weight: 700; }
 	-webkit-transform: translateY(100%);
             transform: translateY(100%);
             transition: all 0.3s;
+ 
 }
 .hover-bg:hover .hover-text>h4{
 	opacity: 1;
@@ -674,6 +675,7 @@ strong {
 
 .styled {
     margin-bottom: 50px;
+    text-align:center;
 }
 
 .styled div {
@@ -754,6 +756,35 @@ table {
         padding: 0.75em 0.75em;
     }
 
+.hover-text h4 {
+    text-align:center;
+}
+
+/* ==================== 5.0 PRELOADER ==================== */
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 10001;
+}
+
+#loading-animation {
+    width: 120px;
+    height: 128px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loading-animation_original.GIF);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -60px 0 0 -64px;
+}
+
 @media only screen and (max-width:765px) {
     .navbar-header {
         border-bottom: 2px solid #f56a6a;
@@ -766,6 +797,10 @@ table {
     }
 
     #tf-about {
-        margin-top:85px;
+        margin-top: 135px;
+    }
+
+    .styled {
+        text-align: center;
     }
 } 

@@ -5,18 +5,6 @@
 //
 
 $(document).ready(function () {
-    $("a").click(function(){
-        $('.navbar-collapse.in').collapse('hide');
-    });
-    $("html").click(function () {
-        $('.navbar-collapse.in').collapse('hide');
-    });
-});
-function main() {
-
-(function () {
-    'use strict';
-
     /*====================================
 					Preloader
 		======================================*/
@@ -37,6 +25,20 @@ function main() {
         hidePreloader();
 
     });
+
+    $("a").click(function(){
+        $('.navbar-collapse.in').collapse('hide');
+    });
+    $("html").click(function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+function main() {
+
+(function () {
+    'use strict';
+
+    
 
    /* ==============================================
   	Testimonial Slider
@@ -154,7 +156,7 @@ function main() {
     $(window).load(function () {
         var $container = $('#lightboxp');
         $container.isotope({
-            filter: '*',
+            filter: '.2018p',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
